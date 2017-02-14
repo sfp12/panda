@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>熊猫精酿</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/style.css">  
+</head>
+<body>
+    <div class='logo-con'>
+        <div class='logo-img-con'>
+            <img src='../images/logo.png'/>
+        </div>
+        <div class='word-img-con'>
+            <img src='../images/word.svg'/>
+        </div>
+    </div>
+    <div class='title-con'>
+        <p class='t-1'>你造吗？</p>
+        <p class='t-2'>喝酒也得看八字合不合！</p>
+        <p class='t-3'>测试一下你适合喝哪种啤酒？</p>
+    </div>
+    <form>
+        <label for='uname'>输入你的名字</label>
+        <input type='text' id='uname' name='uname' />
+        <input type='button' id='submit' value='开始测试'>
+    </form>
+    <p class='count'>已有<span id='count'><%= count %></span>名不明真相群众知道自己该喝什么了</p>
+    
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+html {
+  font-size: 20px; }
+
+@media only screen and (min-width: 481px) {
+  html {
+    font-size: 30px !important; } }
+@media only screen and (min-width: 561px) {
+  html {
+    font-size: 35px !important; } }
+@media only screen and (min-width: 641px) {
+  html {
+    font-size: 40px !important; } }
+body {
+  padding: 1rem 0.8rem;
+  margin: 0;
+  background-color: #dd044d;
+  color: white; }
+  body span,
+  body p,
+  body a,
+  body td {
+    text-shadow: none !important; }
+  body ul {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important; }
+  body input {
+    outline: none;
+    border: none; }
+  body a {
+    text-decoration: none;
+    font-weight: normal !important; }
+  body p {
+    margin: 0; }
+
+.logo-con .logo-img-con {
+  width: 10%;
+  float: left;
+  margin-right: 2%; }
+  .logo-con .logo-img-con img {
+    width: 100%; }
+.logo-con .word-img-con img {
+  width: 2.8rem;
+  height: 1.4rem; }
+
+.title-con {
+  text-align: center;
+  margin-top: 2.5rem; }
+  .title-con .t-1 {
+    font-size: 2.5rem; }
+  .title-con .t-2 {
+    font-size: 1.3rem; }
+  .title-con .t-3 {
+    font-size: 1.1rem; }
+
+form {
+  text-align: center;
+  margin-top: 3rem; }
+  form input {
+    height: 2rem; }
+  form #uname {
+    width: 63%;
+    padding-left: 5%;
+    margin-top: 5px; }
+  form #submit {
+    width: 68%;
+    background-color: #fd034a;
+    color: white;
+    margin-top: 0.8rem; }
+
+.count {
+  margin-top: 1.2rem;
+  font-size: 13px; }
+
+/*# sourceMappingURL=style.css.map */

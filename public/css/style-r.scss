@@ -1,0 +1,174 @@
+$family_1: 'Microsoft YaHei';
+$family_2: 'HiraginoSansGB W3';
+
+
+html {
+    font-size: 20px;
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 30px!important;
+    }
+}
+@media only screen and (min-width: 561px){
+    html {
+        font-size: 35px!important;
+    }
+
+}
+@media only screen and (min-width: 641px){
+    html {
+        font-size: 40px!important;
+    }
+}
+
+body{
+    display:none;
+    padding:1rem 0.8rem;
+    margin:0;
+    background-color:#dd044d;
+    color:white;
+    span,
+    p,
+    a,
+    td,{
+        text-shadow:none !important;
+    }
+    ul{
+        box-shadow: none !important;
+        -webkit-box-shadow: none !important;
+    }
+    input{
+        outline:none;
+        border:none;
+    }
+    a{
+        text-decoration:none;
+        font-weight:normal !important;
+    }
+    p{
+        margin:0;
+    }
+}
+
+.logo-con{
+    
+    .logo-img-con{
+        width:10%;
+        float:left;
+        margin-right: 2%;
+        img{
+            width:100%;
+        }
+    }
+    .word-img-con{
+        img{
+            width:2.8rem;
+            height:1.4rem;
+        }
+    }
+
+}
+
+.title-con{
+    text-align:center;
+    margin-top:2.5rem;
+    .t-1{
+        font-size:1.8rem;
+    }
+    .t-2{
+        font-size:1.2rem;
+    }
+}
+
+img.wine{
+    width: 100%;
+    margin: .5rem 0;
+    
+}
+
+.result{
+    position:relative;
+    border:2px solid white;
+    // height:5rem;
+    text-align:center;
+    margin-top:1rem;
+    .head-con{
+        position:absolute;
+        top:-0.6rem;
+        left: 8%;
+        height:1.2rem;
+        width:84%;
+        text-align:center;
+        background-color:white;
+        .head{
+            color:black; 
+            font-size: 0.8rem;
+        }       
+    }
+    .reason{
+        border-bottom:2px solid red;
+        color:white; 
+        margin:0 8%;
+        margin-top: 1.5rem;
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem;
+        margin-bottom:0.5rem;
+    }
+    .reason-1{
+        font-size:0.75rem;
+    }
+    .reason-2{
+        margin-top:.25px;
+        font-size:20px;
+        margin-bottom:0.5rem;
+    } 
+}
+
+.ticket{
+    margin-top:0.75rem;
+    background-color:#fb235d;
+    clear:both;
+    padding:1rem;
+    
+    .money{
+        display:inline-block;
+        font-size:3.5rem;
+    }
+    div{
+        display:inline-block;
+        .ticket-word{
+            color:white;
+            font-size:1.8rem;
+        }
+        .use-con{
+            background-color:white;
+            width:100%;
+            text-align:center;
+            .use{                
+                color:black;
+                font-size:0.8rem;
+            }
+        } 
+    }
+}
+
+.try{
+    width:100%;
+    height:2rem;
+    background-color: #fd034a;
+    text-align:center;
+    margin-top: 0.8rem;
+    span{
+        color: white;
+        line-height:2rem;
+    }    
+}
+
+.logo-bot{
+    text-align:center;
+    font-size:0.8rem;
+    margin-top:0.75rem;
+}
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title><%= uname %>居然适合喝<%= wname %></title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/style-r.css">  
+</head>
+<body>
+    <div class='logo-con'>
+        <div class='logo-img-con'>
+            <img src='../images/logo.png'/>
+        </div>
+        <div class='word-img-con'>
+            <img src='../images/word.svg'/>
+        </div>
+    </div>
+    <div class='title-con'>
+        <p class='t-1'><span><%= uname %></span>居然适合喝</p>
+        <p class='t-2'><span><%= wname %></span>啤酒</p>
+    </div>
+
+    <img class='wine' id='wine' src='../images/<%= image %>' />
+    <div class='result'>
+      <div class='head-con'>
+        <span class='head'>测试结果</span>
+      </div>
+      <p class='reason'><%= reason %></p>
+      <p class='reason-1'><%= reason1 %></p>
+      <p class='reason-2'><%= reason2 %></p>
+    </div>
+
+    <div class='ticket'>
+      <p class='money' >
+        <%= money %>
+      </p>
+      <div>
+        <p class='ticket-word'>元暖心券</p>
+        <div class='use-con'>
+          <span class='use'><a href=<%= href %>>立即使用</a></span>
+        </div>
+      </div>
+    </div>
+
+    <div class='try' id='try'>
+      <span>我要试试</span>
+    </div>
+
+    <p class='logo-bot'>熊猫精酿PandaBrew</p>
+    
+    
+<script src="../js/jquery-2.1.4.js"></script>
+<script src="../js/index-r.js"></script>
+</body>
+</html>

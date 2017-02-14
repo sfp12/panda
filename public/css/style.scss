@@ -1,0 +1,110 @@
+$family_1: 'Microsoft YaHei';
+$family_2: 'HiraginoSansGB W3';
+
+
+html {
+	font-size: 20px;
+}
+@media only screen and (min-width: 481px){
+	html {
+		font-size: 30px!important;
+	}
+}
+@media only screen and (min-width: 561px){
+	html {
+		font-size: 35px!important;
+	}
+
+}
+@media only screen and (min-width: 641px){
+	html {
+		font-size: 40px!important;
+	}
+}
+
+body{
+	// display:none;
+	padding:1rem 0.8rem;
+	margin:0;
+	background-color:#dd044d;
+	color:white;
+	span,
+	p,
+	a,
+	td,{
+		text-shadow:none !important;
+	}
+	ul{
+		box-shadow: none !important;
+		-webkit-box-shadow: none !important;
+	}
+	input{
+		outline:none;
+		border:none;
+	}
+	a{
+		text-decoration:none;
+		font-weight:normal !important;
+	}
+	p{
+		margin:0;
+	}
+}
+
+.logo-con{
+	
+	.logo-img-con{
+		width:10%;
+		float:left;
+		margin-right: 2%;
+		img{
+			width:100%;
+		}
+	}
+	.word-img-con{
+		img{
+			width:2.8rem;
+			height:1.4rem;
+		}
+	}
+
+}
+
+.title-con{
+	text-align:center;
+	margin-top:2.5rem;
+	.t-1{
+		font-size:2.5rem;
+	}
+	.t-2{
+		font-size:1.3rem;
+	}
+	.t-3{
+		font-size:1.1rem;
+	}
+}
+
+form{
+	text-align:center;
+	margin-top:3rem;
+	input{
+		
+		height:2rem;
+	}
+	#uname{
+		width:63%;
+		padding-left:5%;
+		margin-top: 5px;
+	}
+	#submit{
+		width:68%;
+		background-color: #fd034a;
+		color:white;
+		margin-top:0.8rem;
+	}
+}
+.count{
+	margin-top:1.2rem;
+	font-size:13px;
+}
+
